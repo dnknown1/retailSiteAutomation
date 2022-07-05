@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="74.295305">
+<testcase classname="Deletion of existing product" name="user tries invalid deletion" time="31.059097">
+<system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
+When user clicks on DELETE_PRODUCT button...................................passed
+And user accepts CONFORM_DELETE alert.......................................passed
+Then validate NO_CHANGE.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Deletion of existing product" name="user tries valid deletion first item" time="20.525111">
+<system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
+When user provides FILTER_PRODUCT_NAME "sample".............................passed
+And user clicks on FILTER_PRODUCT button....................................passed
+And validate PRODUCT_MODEL_VALUE "003pxd"...................................passed
+And user selects PRODUCT_TO_MODIFY..........................................passed
+And user clicks on DELETE_PRODUCT button....................................passed
+And user rejects CONFORM_DELETE alert.......................................passed
+Then validate NO_CHANGE.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Deletion of existing product" name="user tries valid deletion first item 2" time="10.634614">
+<system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
+When user provides FILTER_PRODUCT_NAME "sample".............................passed
+And user clicks on FILTER_PRODUCT button....................................passed
+And validate PRODUCT_MODEL_VALUE "003pxd744"................................passed
+And user selects PRODUCT_TO_MODIFY..........................................passed
+And user clicks on DELETE_PRODUCT button....................................passed
+And user accepts CONFORM_DELETE alert.......................................passed
+Then validate ADD_PRODUCT success...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Deletion of existing product" name="user tries valid deletion first item 3" time="12.076483">
+<system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
+When user provides FILTER_PRODUCT_NAME "sample".............................passed
+And user clicks on FILTER_PRODUCT button....................................passed
+And validate PRODUCT_MODEL_VALUE "003pxd"...................................passed
+And user selects PRODUCT_TO_MODIFY..........................................passed
+And user clicks on DELETE_PRODUCT button....................................passed
+And user accepts CONFORM_DELETE alert.......................................passed
+Then validate ADD_PRODUCT success...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
