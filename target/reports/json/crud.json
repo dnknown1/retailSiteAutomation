@@ -1,0 +1,1394 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user is at PRODUCTS_PAGE",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4134826700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is at DASHBOARD_PAGE",
+            "match": {
+              "location": "TestAddProduct.user_is_at_DASHBOARD_PAGE()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64431300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on TAGS_ICON",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_TAGS_ICON()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 798821900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on PRODUCTS_ICON",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_PRODUCTS_ICON()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70822900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to PRODUCTS_PAGE",
+            "match": {
+              "location": "TestAddProduct.user_navigates_to_PRODUCTS_PAGE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-05T08:14:59.582Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2226844100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.setup()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "ADD_PRODUCT with all valid credentials",
+        "description": "",
+        "id": "adding-a-product;add-product-with-all-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 106293800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1188480700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user clicks on ADD_PRODUCT button",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_ADD_PRODUCT_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122124000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user provides PRODUCT_NAME \"sample product\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sample product\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TestAddProduct.user_provides_PRODUCT_NAME(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101937300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user provides PRODUCT_META_NAME \"spm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"spm\"",
+                  "offset": 32
+                }
+              ],
+              "location": "TestAddProduct.user_provides_PRODUCT_META_NAME(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88827000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user clicks on DATA_TAB",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_DATA_TAB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115692400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user provides PRODUCT_MODEL \"003pxd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"003pxd\"",
+                  "offset": 28
+                }
+              ],
+              "location": "TestAddProduct.user_provides_PRODUCT_MODEL(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 956715400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks on SAVE_PRODUCT button",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_SAVE_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71385500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "validate ADD_PRODUCT success",
+            "match": {
+              "location": "TestAddProduct.validate_ADD_PRODUCT_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1!"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user is at PRODUCTS_PAGE",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4124563500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is at DASHBOARD_PAGE",
+            "match": {
+              "location": "TestAddProduct.user_is_at_DASHBOARD_PAGE()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62483800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on TAGS_ICON",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_TAGS_ICON()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 756731200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on PRODUCTS_ICON",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_PRODUCTS_ICON()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59950200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to PRODUCTS_PAGE",
+            "match": {
+              "location": "TestAddProduct.user_navigates_to_PRODUCTS_PAGE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-05T08:15:09.636Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1124105000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.setup()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "ADD_PRODUCT with all valid credentials",
+        "description": "",
+        "id": "adding-a-product;add-product-with-all-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 60366400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1201236900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user clicks on ADD_PRODUCT button",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_ADD_PRODUCT_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115990400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user provides PRODUCT_NAME \"sample product1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sample product1\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TestAddProduct.user_provides_PRODUCT_NAME(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87370100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user provides PRODUCT_META_NAME \"spm1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"spm1\"",
+                  "offset": 32
+                }
+              ],
+              "location": "TestAddProduct.user_provides_PRODUCT_META_NAME(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68237700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user clicks on DATA_TAB",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_DATA_TAB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94761400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user provides PRODUCT_MODEL \"003pxd744\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"003pxd744\"",
+                  "offset": 28
+                }
+              ],
+              "location": "TestAddProduct.user_provides_PRODUCT_MODEL(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 906234300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks on SAVE_PRODUCT button",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_SAVE_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48903700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "validate ADD_PRODUCT success",
+            "match": {
+              "location": "TestAddProduct.validate_ADD_PRODUCT_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1!"
+          }
+        ]
+      }
+    ],
+    "name": "adding a product",
+    "description": "",
+    "id": "adding-a-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/bdd/features/r1AddProduct.feature",
+    "tags": [
+      {
+        "name": "@f1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user is at products page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4805566400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is at PRODUCTS_PAGE",
+            "match": {
+              "location": "TestSearchProduct.user_is_at_PRODUCTS_PAGE()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-05T08:15:18.347Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1135429400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "user tries to update PRODUCT_MODEL \u0026 PRODUCT_SEO",
+        "description": "",
+        "id": "editing-a-product;user-tries-to-update-product-model-\u0026-product-seo;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 83588500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92919900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user provides FILTER_PRODUCT_NAME \"sample\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sample\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TestSearchProduct.user_provides_FILTER_PRODUCT_NAME(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 513219500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on FILTER_PRODUCT button",
+            "match": {
+              "location": "TestSearchProduct.user_clicks_on_FILTER_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122858900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user selects PRODUCT_TO_MODIFY",
+            "match": {
+              "location": "TestEditProduct.user_selects_PRODUCT_TO_MODIFY()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1203749200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on EDIT_PRODUCT button",
+            "match": {
+              "location": "TestEditProduct.user_clicks_on_EDIT_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81233200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks on DATA_TAB",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_DATA_TAB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160309400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user updates PRODUCT_MODEL \"003pxd744\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"003pxd744\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TestEditProduct.user_updates_PRODUCT_MODEL(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118771800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user provides PRODUCT_SEO \"re\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"re\"",
+                  "offset": 26
+                }
+              ],
+              "location": "TestEditProduct.user_provides_PRODUCT_SEO(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 849643900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user clicks on SAVE_PRODUCT button",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_SAVE_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47986400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "validate ADD_PRODUCT success",
+            "match": {
+              "location": "TestAddProduct.validate_ADD_PRODUCT_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f3"
+          },
+          {
+            "name": "@f3!"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "user is at products page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4852443400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is at PRODUCTS_PAGE",
+            "match": {
+              "location": "TestSearchProduct.user_is_at_PRODUCTS_PAGE()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-05T08:15:27.564Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1106288300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.setup()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "user tries to update PRODUCT_MODEL \u0026 PRODUCT_SEO",
+        "description": "",
+        "id": "editing-a-product;user-tries-to-update-product-model-\u0026-product-seo;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 70235600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 87288200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user provides FILTER_PRODUCT_NAME \"sample product1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sample product1\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TestSearchProduct.user_provides_FILTER_PRODUCT_NAME(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 526200900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on FILTER_PRODUCT button",
+            "match": {
+              "location": "TestSearchProduct.user_clicks_on_FILTER_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81322300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user selects PRODUCT_TO_MODIFY",
+            "match": {
+              "location": "TestEditProduct.user_selects_PRODUCT_TO_MODIFY()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1237253300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on EDIT_PRODUCT button",
+            "match": {
+              "location": "TestEditProduct.user_clicks_on_EDIT_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99820800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks on DATA_TAB",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_DATA_TAB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180323000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user updates PRODUCT_MODEL \"003pxd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"003pxd\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TestEditProduct.user_updates_PRODUCT_MODEL(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131626800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user provides PRODUCT_SEO \"re1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"re1\"",
+                  "offset": 26
+                }
+              ],
+              "location": "TestEditProduct.user_provides_PRODUCT_SEO(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 885733000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user clicks on SAVE_PRODUCT button",
+            "match": {
+              "location": "TestAddProduct.user_clicks_on_SAVE_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32677700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "validate ADD_PRODUCT success",
+            "match": {
+              "location": "TestAddProduct.validate_ADD_PRODUCT_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f3"
+          },
+          {
+            "name": "@f3!"
+          }
+        ]
+      }
+    ],
+    "name": "Editing a product",
+    "description": "  user wants to modify a product",
+    "id": "editing-a-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/bdd/features/r2EditProduct.feature",
+    "tags": [
+      {
+        "name": "@f3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user needs to login to view homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4771894400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is at PRODUCTS_PAGE",
+            "match": {
+              "location": "TestSearchProduct.user_is_at_PRODUCTS_PAGE()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-05T08:15:36.856Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1119850700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "user wants to verify partial search",
+        "description": "",
+        "id": "test-products-page;user-wants-to-verify-partial-search;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 70012300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 89457000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user provides FILTER_PRODUCT_NAME \"sample\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sample\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TestSearchProduct.user_provides_FILTER_PRODUCT_NAME(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 624573100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on FILTER_PRODUCT button",
+            "match": {
+              "location": "TestSearchProduct.user_clicks_on_FILTER_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69451200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "validate PRODUCT_MODEL_VALUE \"003pxd744\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"003pxd744\"",
+                  "offset": 29
+                }
+              ],
+              "location": "TestSearchProduct.validate_PRODUCT_MODEL_VALUE(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f2"
+          },
+          {
+            "name": "@f2!n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "user needs to login to view homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4475682800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is at PRODUCTS_PAGE",
+            "match": {
+              "location": "TestSearchProduct.user_is_at_PRODUCTS_PAGE()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-05T08:15:43.602Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1100662700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "user wants to verify partial search",
+        "description": "",
+        "id": "test-products-page;user-wants-to-verify-partial-search;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 75191200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 86289300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user provides FILTER_PRODUCT_NAME \"sample product1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sample product1\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TestSearchProduct.user_provides_FILTER_PRODUCT_NAME(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 493841000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on FILTER_PRODUCT button",
+            "match": {
+              "location": "TestSearchProduct.user_clicks_on_FILTER_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59542900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "validate PRODUCT_MODEL_VALUE \"003pxd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"003pxd\"",
+                  "offset": 29
+                }
+              ],
+              "location": "TestSearchProduct.validate_PRODUCT_MODEL_VALUE(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f2"
+          },
+          {
+            "name": "@f2!n"
+          }
+        ]
+      }
+    ],
+    "name": "Test products page",
+    "description": "  user wants to search products",
+    "id": "test-products-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/bdd/features/r3SearchProduct.feature",
+    "tags": [
+      {
+        "name": "@f2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user is at products page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5551990200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is at PRODUCTS_PAGE",
+            "match": {
+              "location": "TestSearchProduct.user_is_at_PRODUCTS_PAGE()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-05T08:15:49.893Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1113702600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.setup()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "user tries valid deletion first item",
+        "description": "",
+        "id": "deletion-of-existing-product;user-tries-valid-deletion-first-item;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 81991200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70777300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user provides FILTER_PRODUCT_NAME \"sample\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sample\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TestSearchProduct.user_provides_FILTER_PRODUCT_NAME(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 515597000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user clicks on FILTER_PRODUCT button",
+            "match": {
+              "location": "TestSearchProduct.user_clicks_on_FILTER_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64975300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "validate PRODUCT_MODEL_VALUE \"003pxd744\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"003pxd744\"",
+                  "offset": 29
+                }
+              ],
+              "location": "TestSearchProduct.validate_PRODUCT_MODEL_VALUE(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88895100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user selects PRODUCT_TO_MODIFY",
+            "match": {
+              "location": "TestEditProduct.user_selects_PRODUCT_TO_MODIFY()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89383000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks on DELETE_PRODUCT button",
+            "match": {
+              "location": "TestDeleteProduct.user_clicks_on_DELETE_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 885737500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user accepts CONFORM_DELETE alert",
+            "match": {
+              "location": "TestDeleteProduct.user_accepts_CONFORM_DELETE_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34099700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "validate ADD_PRODUCT success",
+            "match": {
+              "location": "TestAddProduct.validate_ADD_PRODUCT_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f4"
+          },
+          {
+            "name": "@f4!"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "user is at products page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5531907600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is at PRODUCTS_PAGE",
+            "match": {
+              "location": "TestSearchProduct.user_is_at_PRODUCTS_PAGE()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-05T08:15:58.391Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1110749700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.setup()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "user tries valid deletion first item",
+        "description": "",
+        "id": "deletion-of-existing-product;user-tries-valid-deletion-first-item;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 67566300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseDriver.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 102708400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user provides FILTER_PRODUCT_NAME \"sample product1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sample product1\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TestSearchProduct.user_provides_FILTER_PRODUCT_NAME(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 517407400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user clicks on FILTER_PRODUCT button",
+            "match": {
+              "location": "TestSearchProduct.user_clicks_on_FILTER_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56031500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "validate PRODUCT_MODEL_VALUE \"003pxd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"003pxd\"",
+                  "offset": 29
+                }
+              ],
+              "location": "TestSearchProduct.validate_PRODUCT_MODEL_VALUE(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60886800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user selects PRODUCT_TO_MODIFY",
+            "match": {
+              "location": "TestEditProduct.user_selects_PRODUCT_TO_MODIFY()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64472800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks on DELETE_PRODUCT button",
+            "match": {
+              "location": "TestDeleteProduct.user_clicks_on_DELETE_PRODUCT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 831293100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user accepts CONFORM_DELETE alert",
+            "match": {
+              "location": "TestDeleteProduct.user_accepts_CONFORM_DELETE_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35666800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "validate ADD_PRODUCT success",
+            "match": {
+              "location": "TestAddProduct.validate_ADD_PRODUCT_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f4"
+          },
+          {
+            "name": "@f4!"
+          }
+        ]
+      }
+    ],
+    "name": "Deletion of existing product",
+    "description": "  user wants to delete existing product",
+    "id": "deletion-of-existing-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/bdd/features/r4DeleteProduct.feature",
+    "tags": [
+      {
+        "name": "@f4",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

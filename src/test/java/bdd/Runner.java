@@ -12,16 +12,16 @@ import cucumber.api.junit.Cucumber;
     glue ={"bdd.stepDefinitions", "bdd.hooks"},
 	monochrome=true,
 	//tags= {"@f1! or @f3!"},
-	//tags= {"@f2!n"},
+	tags= {"@f1! or @f3! or @f2!n or @f4!"},
 	//tags= {"@f4"},
 	//tags={"@f0"},
 
 	dryRun=false,
 	plugin = {
 		"pretty",
-		"html:target/reports/html/testAsync",
-		"json:target/reports/json/testAsync.json",
-		"junit:target/reports/xml/testAsync.xml"
+		"html:target/reports/html/crud",
+		"json:target/reports/json/crud.json",
+		"junit:target/reports/xml/crud.xml"
 	}
 )
 
