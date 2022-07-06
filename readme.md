@@ -1,6 +1,6 @@
 repo for:
 # IBM FULLSTACK-tester Training
-Retail site(admin) products page automation test tiny project
+Retail site(admin) products page automation test tiny project to check understanding of how BDD works
 
 ### @update_notes
 * pure selenium/cucumber
