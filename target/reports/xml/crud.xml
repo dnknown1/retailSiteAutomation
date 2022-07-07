@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="67.18525">
-<testcase classname="adding a product" name="ADD_PRODUCT with all valid credentials" time="10.052568">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="83.103045">
+<testcase classname="adding a product" name="ADD_PRODUCT with all valid credentials" time="17.978828">
 <system-out><![CDATA[Given user is at DASHBOARD_PAGE.............................................passed
 When user clicks on TAGS_ICON...............................................passed
 And user clicks on PRODUCTS_ICON............................................passed
@@ -14,7 +14,7 @@ And user clicks on SAVE_PRODUCT button......................................pass
 Then validate ADD_PRODUCT success...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="adding a product" name="ADD_PRODUCT with all valid credentials 2" time="8.711414">
+<testcase classname="adding a product" name="ADD_PRODUCT with all valid credentials 2" time="9.734284">
 <system-out><![CDATA[Given user is at DASHBOARD_PAGE.............................................passed
 When user clicks on TAGS_ICON...............................................passed
 And user clicks on PRODUCTS_ICON............................................passed
@@ -28,7 +28,7 @@ And user clicks on SAVE_PRODUCT button......................................pass
 Then validate ADD_PRODUCT success...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Editing a product" name="user tries to update PRODUCT_MODEL &amp; PRODUCT_SEO" time="9.216053">
+<testcase classname="Editing a product" name="user tries to update PRODUCT_MODEL &amp; PRODUCT_SEO" time="11.861271">
 <system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
 When user provides FILTER_PRODUCT_NAME "sample".............................passed
 And user clicks on FILTER_PRODUCT button....................................passed
@@ -41,7 +41,7 @@ And user clicks on SAVE_PRODUCT button......................................pass
 Then validate ADD_PRODUCT success...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Editing a product" name="user tries to update PRODUCT_MODEL &amp; PRODUCT_SEO 2" time="9.291693">
+<testcase classname="Editing a product" name="user tries to update PRODUCT_MODEL &amp; PRODUCT_SEO 2" time="9.971874">
 <system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
 When user provides FILTER_PRODUCT_NAME "sample product1"....................passed
 And user clicks on FILTER_PRODUCT button....................................passed
@@ -54,21 +54,21 @@ And user clicks on SAVE_PRODUCT button......................................pass
 Then validate ADD_PRODUCT success...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test products page" name="user wants to verify partial search" time="6.745513">
+<testcase classname="Test products page" name="user wants to verify partial search" time="7.254182">
 <system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
 When user provides FILTER_PRODUCT_NAME "sample".............................passed
 And user clicks on FILTER_PRODUCT button....................................passed
 Then validate PRODUCT_MODEL_VALUE "003pxd744"...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test products page" name="user wants to verify partial search 2" time="6.291489">
+<testcase classname="Test products page" name="user wants to verify partial search 2" time="7.850972">
 <system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
 When user provides FILTER_PRODUCT_NAME "sample product1"....................passed
 And user clicks on FILTER_PRODUCT button....................................passed
 Then validate PRODUCT_MODEL_VALUE "003pxd"..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Deletion of existing product" name="user tries valid deletion first item" time="8.497457">
+<testcase classname="Deletion of existing product" name="user tries valid deletion first item" time="9.131481">
 <system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
 When user provides FILTER_PRODUCT_NAME "sample".............................passed
 And user clicks on FILTER_PRODUCT button....................................passed
@@ -79,7 +79,7 @@ And user accepts CONFORM_DELETE alert.......................................pass
 Then validate ADD_PRODUCT success...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Deletion of existing product" name="user tries valid deletion first item 2" time="8.379063">
+<testcase classname="Deletion of existing product" name="user tries valid deletion first item 2" time="9.320153">
 <system-out><![CDATA[Given user is at PRODUCTS_PAGE..............................................passed
 When user provides FILTER_PRODUCT_NAME "sample product1"....................passed
 And user clicks on FILTER_PRODUCT button....................................passed
